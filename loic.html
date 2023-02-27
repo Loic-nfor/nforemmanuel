@@ -1,0 +1,247 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nfor.css">
+    <script src="nfor.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="android.png" alt="" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li>
+                        <a href="#"></a>Home</li>
+                    <li>
+                        <a href="#"></a>About</li>
+                    <li>
+                        <a href="#"></a>Services</li>
+            </nav>
+            <img src="android.png" alt="" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>I am Nfor Emmanuel</h2>
+                <h3>SOftware Engieering</h3>
+                <p>Study at IUC, Douala Logbessou</p>
+                <h4>Subscribe to create a portfolio</h4>
+                <button type="button">Subscribe</button>
+            </div>
+
+            <div class="col-2">
+                <img src="android.png" alt="" class="controller">
+                <div class="color-box"></div>
+            </div>
+        </div>
+
+    </div>
+    <section>
+        <h1>this is for my image galery</h1>
+    </section>
+    <section>
+        <div class="reveal reveal">
+            <h2>About</h2>
+            <div class="cards">
+                <div class="text-cards">
+                    <h3>A SOftware.E</h3>
+                    <p> He is an IT professional who designs , develops and maintains computer software at a company. They use thier skills to solve problems in an organisation. </p>
+                </div>
+
+                <div class="text-cards">
+                    <h3>SWE Responsibilities</h3>
+                    <p>
+                        <li>Executing full lifecycle software development</li>
+                        <li>Programming well-designed, testable, efficient code</li>
+                        <li>Producing specifications and determine operational feasibility.</li>
+                    </p>
+                </div>
+
+                <div class="text-cards">
+                    <h3>Require Skills</h3>
+                    <p>
+                        <li>Proven work experience as a software engineer of software developer</li>
+                        <li>Experience designing interactive applications</li>
+                        <li>Ability to develop software in java, ruby on rails, C++ etc</li>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="reveal reveal">
+            <h2>Services</h2>
+            <div class="cards">
+                <div class="text-cards">
+                    <h3>Design, Build, Accelerate</h3>
+                    <p>With nearly 12,000 designers, architects, and software engineers around the world, we not only have the talent, but mature processes (Agile, QA), and development tools to give your software project the boost that it needs. </p>
+                </div>
+
+                <div class="text-cards">
+                    <h3>Innovation Across The Product Lifecycle</h3>
+                    <p>We use the latest tools and techniques for software development, or leverage our customer’s standards. We believe in utilizing the POC (Proof of Concept) / MVP (Minimum Viable Products) approach to getting a fast start, and we iterate
+                        from there to get to the best possible outcomes in the shortest amount of time. </p>
+                </div>
+
+                <div class="text-cards">
+                    <h3>Software product</h3>
+                    <p>Software product engineering services focus on optimizing the programs and systems of a business. They can include digital platforms, Agile software development, and quality assurance to improve software efficiency.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">Let's Work together</h2>
+                    <form method="POST">
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">first name</label>
+                                    <input class="input--style-4" type="text" name="first_name">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">last name</label>
+                                    <input class="input--style-4" type="text" name="last_name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Starting date</label>
+                                    <div class="input-group-icon">
+                                        <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Gender</label>
+                                    <div class="p-t-10">
+                                        <label class="radio-container m-r-45">Male
+                                            <input type="radio" checked="checked" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Female
+                                            <input type="radio" name="gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Email</label>
+                                    <input class="input--style-4" type="email" name="email">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Phone Number</label>
+                                    <input class="input--style-4" type="text" name="phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Subject</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="subject">
+                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option>Create a website</option>
+                                    <option>Maintenance problems</option>
+                                    <option>Others</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer-20192">
+        <div class="site-section">
+            <div class="container">
+
+                <div class="cta d-block d-md-flex align-items-center px-5">
+                    <div>
+                        <h2 class="mb-0">Ready for a next project?</h2>
+                        <h3 class="text-dark">Let's get started!</h3>
+                    </div>
+                    <div class="ml-auto">
+                        <a href="#" class="btn btn-dark rounded-0 py-3 px-5">Contact us</a>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm">
+                        <a href="#" class="footer-logo">LoicNfr</a>
+                        <p class="copyright">
+                            <small>&copy; 2019</small>
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Customers</h3>
+                        <ul class="list-unstyled links">
+                            <li><a href="#">Buyer</a></li>
+                            <li><a href="#">Supplier</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Company</h3>
+                        <ul class="list-unstyled links">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Further Information</h3>
+                        <ul class="list-unstyled links">
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Follow us</h3>
+                        <ul class="list-unstyled social">
+                            <li><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                            <li><a href="#"><span class="icon-medium"></span></a></li>
+                            <li><a href="#"><span class="icon-paper-plane"></span></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
